@@ -426,28 +426,50 @@
 
 
 // function isLeapYear(Y) {
-//   if (Y % 4 == 0) {
+//   if ((Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0)) {
 //     return true;
 //   } else {
 //     return false;
 //   }
 // }
 
-// console.log(isLeapYear(2023));
+// console.log(isLeapYear(2024));
 
 
 //                                  No_22
 
-function isLeapYear(Y) {
-  if (Y % 4 == 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function isLeapYear(Y) {
+//   if ((Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-function monthDays(M, Y) {
-  switch (key) {
-    case :
-  }
-}
+// function monthDays(M, Y) {
+//   if (M < 1 || M > 12) {
+//     return -1;
+//   }
+
+
+//   if (M === 4 || M === 6 || M === 9 || M === 11) {
+//     return 30;
+//   }
+
+//   if (M === 2) {
+//     if (isLeapYear(Y)) {
+//       return 29;
+//     } else {
+//       return 28;
+//     }
+//   }
+
+//   return 31;
+// }
+
+// console.log(monthDays(3, 2021));
+
+
+//                                  No_22
+
+
