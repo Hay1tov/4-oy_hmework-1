@@ -267,6 +267,187 @@
 // console.log(digitNth(105782, 5));
 
 
-//                                  No_13
+//                                  No_14
 
 
+// function inverseNumber(N) {
+//   let inverse = '';
+
+//   while (N != 0) {
+//     birlik = N % 10;
+//     inverse += birlik;
+//     N = Math.floor(N / 10);
+//   }
+//   console.log(`Natija ${inverse}`);
+
+// }
+
+// inverseNumber(56814)
+
+
+//                                  No_15
+
+
+// function inverseNumber(N) {
+//   let inverse = '';
+
+//   while (N != 0) {
+//     birlik = N % 10;
+//     inverse += birlik;
+//     N = Math.floor(N / 10);
+//   }
+
+//   return Number(inverse);
+// }
+
+// function isPalindrom(N) {
+
+//   return N == inverseNumber(N)
+// }
+
+// console.log(isPalindrom(1678761));
+
+
+//                                  No_16
+
+
+// function factorial(N) {
+//   let result = 1;
+//   if (N >= 0) {
+//     for (let i = 1; i <= N; i++) {
+//       result *= i;
+//     }
+//     return result;
+//   } else {
+//     return 1;
+//   }
+
+// }
+
+// console.log(factorial(5));
+
+
+//                                  No_17
+
+
+// function getSum3(N) {
+//   let total = 0;
+//   if (N >= 0) {
+//     for (let i = 1; i <= N; i++) {
+//       if (i % 3 == 0) {
+//         total += i;
+//       }
+//     }
+//     console.log(`Natija ${total}`);
+
+//   } else {
+//     return 1;
+//   }
+
+// }
+
+// getSum3(15);
+
+
+//                                  No_18
+
+
+// function sumOddEven(N) {
+//   let toq = 0;
+//   let juft = 0;
+//   if (N > 0) {
+//     for (let i = 1; i <= N; i++) {
+//       if (i % 2 == 0) {
+//         juft += i;
+//       } else {
+//         toq += i;
+//       }
+//     }
+//     console.log(`juft sonlar yig'indisi ${juft}`);
+//     console.log(`toq sonlar yig'indisi ${toq}`);
+
+//   } else {
+//     return 1;
+//   }
+
+// }
+
+// sumOddEven(10);
+
+
+//                                  No_19
+
+
+// function invertTime(H, M, S) {
+//   let T = 0;
+
+//   T += H * 3600;
+//   T += M * 60;
+//   T += S;
+
+//   return T;
+// }
+
+// console.log(invertTime(0, 6, 40));
+
+
+//                                  No_20
+
+
+// function decTime(H, M, S) {
+//   S -= 1;
+
+//   if (S < 0) {
+//     S = 59;
+//     M -= 1;
+
+//     if (M < 0) {
+//       M = 59;
+//       H -= 1;
+
+//       if (H < 0) {
+//         H = 23;
+//       }
+//     }
+//   }
+
+//   let hh = String(H).padStart(2, '0');
+//   let mm = String(M).padStart(2, '0');
+//   let ss = String(S).padStart(2, '0');
+
+
+//   return `${hh}:${mm}:${ss}`;
+// }
+
+// console.log(decTime(0, 6, 0));
+
+
+//                                  No_21
+
+
+// function isLeapYear(Y) {
+//   if (Y % 4 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(isLeapYear(2023));
+
+
+//                                  No_22
+
+function isLeapYear(Y) {
+  if (Y % 4 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function monthDays(M, Y) {
+  switch (key) {
+    case :
+  }
+}
