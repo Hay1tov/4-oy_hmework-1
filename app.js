@@ -451,7 +451,6 @@
 //     return -1;
 //   }
 
-
 //   if (M === 4 || M === 6 || M === 9 || M === 11) {
 //     return 30;
 //   }
@@ -470,6 +469,23 @@
 // console.log(monthDays(3, 2021));
 
 
-//                                  No_22
+//                                  22 bilan 23 ishlay olmadim!
 
 
+//                                  No_25
+
+
+// function getDividersNumberAndSum(N) {
+//   let count = 0;
+//   let total = 0;
+
+//   for (let i = 1; i <= N; i++) {
+//     if (N % i == 0) {
+//       count++;
+//       total += i;
+//     }
+//   }
+//   return `Natija ${count}, ${total}`
+// }
+
+// console.log(getDividersNumberAndSum(12));
