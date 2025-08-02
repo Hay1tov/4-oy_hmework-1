@@ -177,7 +177,9 @@
 
 
 // function isPowerN(K, N) {
-//   if (K <= 0 || N <= 1) return K === 1;
+//   if (K <= 0 || N <= 1) {
+//     return 0;
+//   }
 
 //   while (K % N === 0) {
 //     K = K / N;
@@ -186,7 +188,7 @@
 //   return K === 1;
 // }
 
-// console.log(isPowerN(25, 5));
+// console.log(isPowerN(1, 5));
 
 
 //                                  No_11
